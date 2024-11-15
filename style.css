@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+header {
+  padding: 20px calc(50% - 600px);
+  background-color: rgb(74, 143, 113);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.vtuber {
+  font-size: 79px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+.parent {
+  margin-left: auto;
+  margin-right: auto;
+  /* height: 400px; */
+  color: white;
+  /* width: 50%; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1414px;
+}
+
+.card {
+  margin: 15px;
+  background-color: #589394;
+  width: 45%;
+  padding: 15px;
+  border: 1px;
+  border-radius: 15px;
+  max-width: 400px;
+}
+
+.zalupa {
+  margin: 15px;
+  background-color: #589394;
+  width: 100%;
+  height: 670px;
+  border: 1px;
+  border-radius: 15px;
+
+}
+
+.gavno {
+  /* margin-left: 19%; */
+  margin-right: auto;
+  background-color: #989998;
+  width: 100%;
+  height: 54%;
+  border-radius: 12px;
+}
+
+.rust {
+  position: relative;
+  color: white;
+
+}
+
+.nebegau {
+  background-color: hsl(0, 0%, 0%);
+  width: 100%;
+  height: 100%;
+  margin-bottom: 15px;
+  border-radius: 12px;
+}
+
+a.vtuber {
+  font-size: 40px;
+}
+
+@media (max-width: 1500px) {
+  .parent {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 980px) {
+  .parent {
+    width: 550px;
+  }
+
+  a.vtuber {
+    font-size: 60px;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .parent {
+    width: 100%;
+  }
+}
